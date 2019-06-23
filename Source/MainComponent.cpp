@@ -11,7 +11,7 @@
 //==============================================================================
 MainComponent::MainComponent()
 {
-    setSize (600, 400);
+    setSize (200, 200);
 }
 
 MainComponent::~MainComponent()
@@ -25,7 +25,7 @@ void MainComponent::paint (Graphics& g)
     g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));
 
     g.setFont (Font (16.0f));
-    g.setColour (Colours::white);
+    g.setColour (Colours::cornflowerblue);
     g.drawText ("Hello World!", getLocalBounds(), Justification::centred, true);
 }
 
